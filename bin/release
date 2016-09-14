@@ -9,7 +9,7 @@ import urllib2
 import json
 import copy
 
-user = 'noboru-i'
+user = 'taizo'
 repo = 'issue-hub'
 token = os.getenv('GITHUB_API_TOKEN')
 branch = os.getenv('CIRCLE_BRANCH')
@@ -57,7 +57,7 @@ def delete_release(id):
     print resp.status
 
     # delete tag
-    subprocess.call('git config --global user.email ishikura.noboru@gmail.com'.split(' '))
+    subprocess.call('git config --global user.email foobar@example.com'.split(' '))
     subprocess.call('git config --global user.name "CircleCI"'.split(' '))
     subprocess.call(('git tag -d v%s' % tag_version).split(' '))
     subprocess.call(('git push origin :v%s' % tag_version).split(' '))

@@ -1,5 +1,5 @@
 # IssueHub
 
-[![Circle CI](https://circleci.com/gh/noboru-i/issue-hub.svg?style=shield)](https://circleci.com/gh/noboru-i/issue-hub)
+[![Circle CI](https://circleci.com/gh/taizo/issue-hub.svg?style=shield)](https://circleci.com/gh/taizo/issue-hub)
 
 GitHub issue client made by Electron.
